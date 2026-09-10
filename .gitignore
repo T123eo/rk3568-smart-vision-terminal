@@ -1,0 +1,81 @@
+# Object files and generated dependency files
+*.o
+*.obj
+*.d
+*.dep
+
+# Libraries and native build outputs
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.elf
+*.out
+
+# Project executables
+/client_rk3568/main
+/server_pc/server
+
+# Captured or converted media data
+*.h264
+*.h265
+*.yuv
+*.rgb
+*.raw
+
+# Logs
+*.log
+logs/
+
+# Editor and IDE metadata
+.vscode/
+.idea/
+*.code-workspace
+
+# CMake and generated build directories
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Temporary, backup, and swap files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*~
+.#*
+#*#
+*.swp
+*.swo
+*.swn
+.cache/
+
+# Core dumps and crash artifacts
+core
+core.*
+vgcore.*
+*.dmp
+
+# Large SDK, cross-toolchain, and sysroot environments
+sdk/
+SDK/
+toolchain/
+toolchains/
+cross-toolchain/
+cross-toolchains/
+sysroot/
+sysroots/
+staging_dir/
+host-tools/
+
+# OS-generated metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
